@@ -1,0 +1,46 @@
+  body, html {
+  height: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+      *{
+      	box-sizing: border-box;
+      }
+		.bgimg{
+            
+            position: relative;
+            background-image: url("library2.jpg");
+             min-height: 620px;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover
+		}
+		
+		.add{
+			position: absolute;
+			background-color: white;
+			width: 400px;
+
+			left: 35%;
+			padding: 16px;
+			height: 400px;
+			bottom: 90px;
+			opacity: 0.7;
+		}
+		
+		.btn{
+           background-color: green;
+           width: 100%;
+           opacity: 0.9;
+           color: white;
+          padding: 16px 20px;
+		}
+		.btn:hover {
+              opacity: 1;
+        }
+        input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+
+}
